@@ -10,8 +10,5 @@ namespace DataAccessLayer.Abstract
     public interface ICategoryDAL:IGenericDAL<Category>
     {
         void ChangetoStatusTrue(int id);
-        
-
-  
     }
 }

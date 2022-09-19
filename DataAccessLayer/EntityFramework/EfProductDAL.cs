@@ -11,9 +11,10 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfProductDAL : GenericRepository<Product>, IProductDAL
     {
-        //güncelleme için gereken işlemler
+        
         public void ChangeStatusToFalse(int id)
         {
+            //güncelleme için gereken işlemler
             throw new NotImplementedException();
         }
     }

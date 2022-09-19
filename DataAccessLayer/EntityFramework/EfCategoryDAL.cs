@@ -13,7 +13,7 @@ namespace DataAccessLayer.EntityFramework
     {
         public void ChangetoStatusTrue(int id)
         {
-            throw new NotImplementedException();
+            //işlemler
         }
     }
 }
